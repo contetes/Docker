@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
  */
 public class Accueil extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	private static final String VUE = "/WebContent/WEB-INF/jsp/Accueil.jsp";
+	private static final String VUE = "/WEB-INF/jsp/Accueil.jsp";
        
     /**
      * @see HttpServlet#HttpServlet()
