@@ -4,4 +4,12 @@
   <welcome-file-list>
     <welcome-file>jsp/Accueil.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <servlet-name>Accueil</servlet-name>
+    <servlet-class>com.tpdocker.servlets.Accueil</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Accueil</servlet-name>
+    <url-pattern>/accueil</url-pattern>
+  </servlet-mapping>
 </web-app>
