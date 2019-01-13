@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+html * {
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+	background: #6fb2ed;
+}
+
+h1 {
+	text-align:center;
+}
+
+fieldset {
+	position: relative;
+	background: radial-gradient(circle, #08B7E5, #0156CF, #0ACFDB);
+	margin: 0 auto 100px;
+	padding: 45px;
+	text-align: center;
+	border-radius: 70px;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0
+		rgba(0, 0, 0, 0.24);
+}
