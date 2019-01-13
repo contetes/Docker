@@ -1,4 +1,4 @@
-package com.eseo.docker.TP_Docker;
+package com.eseo.tpdocker;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
